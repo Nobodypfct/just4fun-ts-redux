@@ -19,7 +19,7 @@ const App: React.FC = () => {
     (article: IArticle) => dispatch(addArticle(article)),
     [dispatch]
   )
-
+  console.log('another one 123')
   return (
     <main>
       <h1>My Articles</h1>
